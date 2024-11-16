@@ -47,10 +47,6 @@ constexpr bool kDefaultErroneousDataReportingEnabled = true;
 static const std::string kPropertyErroneousDataReportingEnabled =
     "bluetooth.hci.erroneous_data_reporting.enabled";
 
-constexpr bool kDefaultErroneousDataReportingEnabled = true;
-static const std::string kPropertyErroneousDataReportingEnabled =
-    "bluetooth.hci.erroneous_data_reporting.enabled";
-
 using os::Handler;
 
 struct Controller::impl {
